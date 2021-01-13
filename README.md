@@ -47,3 +47,7 @@ Any site that uses this theme will only use the files in `_layouts`, `_includes`
 - [How to create a Jekyll Theme](https://www.siteleaf.com/blog/making-your-first-jekyll-theme-part-2/)
 - [nbdev docs](https://nbdev.fast.ai/)
 - [nbdev repo template](https://github.com/fastai/nbdev_template)
+
+### Notes
+
+This theme does not distribute certain files that are bundled with [nbdev template](https://github.com/fastai/nbdev_template) such as sitemap.xml, feed.xml, and various configuration files and notebooks for getting started with nbdev.
