@@ -3,46 +3,47 @@
 A Jekyll theme for [nbdev](https://nbdev.fast.ai)
 
 
-## Installation
+## Usage
+
+We recommend that you use repo template [nbdev template](https://github.com/fastai/nbdev_template/) to create new nbdev projects.  [nbdev template](https://github.com/fastai/nbdev_template/) containts this theme as well as other supporting files you need to get started.
+
+## Development
+
+The following are instructions for using the nbdev-theme without the template, which can be useful for testing or development.
+
+### Installation
 
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "nbdev"
+gem "jekyll-remote-theme"
 ```
 
-And add this line to your Jekyll site's `_config.yml`:
+And add these lines to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: nbdev
+plugins:
+    - jekyll-remote-theme
+    
+remote_theme: fastai/nbdev-theme
 ```
 
 And then execute:
 
-    $ bundle
+    > bundle install
 
-Or install it yourself as:
 
-    $ gem install nbdev
-
-## Usage
-
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
+### Serving
 
 Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
 
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `nbdev.gemspec` accordingly.
+### Overriding This Theme
 
-## License
+Any site that uses this theme will only use the files in `_layouts`, `_includes`, `_sass` and `assets` tracked.  If you wish to override this theme, you must create the same directory and file in your local project.  For example, to change your site's favicon, you can create a file named `assets/images/favicon.ico` to override the default favicon contained in this theme.
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+## Resources
 
+- [Jekyll Docs](https://jekyllrb.com/docs/)
+- [How to create a Jekyll Theme](https://www.siteleaf.com/blog/making-your-first-jekyll-theme-part-2/)
+- [nbdev docs](https://nbdev.fast.ai/)
+- [nbdev repo template](https://github.com/fastai/nbdev_template)
