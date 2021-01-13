@@ -1,1 +1,0 @@
-console.print("hello world");
