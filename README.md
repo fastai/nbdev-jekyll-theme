@@ -40,7 +40,7 @@ Your theme is setup just like a normal Jekyll site! To test your theme, run `bun
 
 ### Overriding This Theme
 
-Any site that uses this theme will only use the files in `_layouts`, `_includes`, `_sass` and `assets` tracked.  If you wish to override this theme, you must create the same directory and file in your local project.  For example, to change your site's favicon, you can create a file named `assets/images/favicon.ico` to override the default favicon contained in this theme.
+Any site that uses this theme will only use the files in `_layouts`, `_includes`, `_sass` and `assets`.  If you wish to override this theme, you must create the same directory and file in your local project.  For example, to change your site's favicon, you can create a file named `assets/images/favicon.ico` to override the default favicon contained in this theme.
 
 _Note: This theme does not distribute certain files that are bundled with [nbdev template](https://github.com/fastai/nbdev_template) such as sitemap.xml, feed.xml, and various configuration files and notebooks._
 
