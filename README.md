@@ -1,4 +1,4 @@
-# nbdev-theme
+# nbdev-jekyll-theme
 
 A Jekyll theme for [nbdev](https://nbdev.fast.ai)
 
@@ -9,7 +9,7 @@ We recommend that you use repo template [nbdev template](https://github.com/fast
 
 ## Development
 
-The following are instructions for using the nbdev-theme without the template, which can be useful for testing or development.
+The following are instructions for using nbdev-jekyll-theme without the template, which can be useful for testing or development.
 
 ### Installation
 
@@ -25,7 +25,7 @@ And add these lines to your Jekyll site's `_config.yml`:
 plugins:
     - jekyll-remote-theme
     
-remote_theme: fastai/nbdev-theme
+remote_theme: fastai/nbdev-jekyll-theme
 ```
 
 And then execute:

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    nbdev-theme (0.1.0)
+    nbdev-jekyll-theme (0.1.0)
       jekyll (>= 3.7)
       kramdown (>= 2.3.0)
       nokogiri
@@ -74,7 +74,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  nbdev-theme!
+  nbdev-jekyll-theme!
 
 BUNDLED WITH
    2.1.4
