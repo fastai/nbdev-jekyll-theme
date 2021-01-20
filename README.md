@@ -5,7 +5,7 @@ A Jekyll theme for [nbdev](https://nbdev.fast.ai) based on [documentation-theme-
 
 ## Usage
 
-We recommend that you use repo template [nbdev template](https://github.com/fastai/nbdev_template/) or the [nbdev_new](https://nbdev.fast.ai/cli.html#nbdev_new) to create new nbdev projects.  [nbdev template](https://github.com/fastai/nbdev_template/) containts this theme as well as other supporting files needed for nbdev.
+We recommend that you use repo template [nbdev template](https://github.com/fastai/nbdev_template/) or the [nbdev_new](https://nbdev.fast.ai/cli.html#nbdev_new) CLI command to create new nbdev projects.  [nbdev template](https://github.com/fastai/nbdev_template/) containts this theme as well as other supporting files needed for nbdev.
 
 ## Development
 
