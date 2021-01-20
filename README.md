@@ -1,6 +1,6 @@
 # nbdev-jekyll-theme
 
-A Jekyll theme for [nbdev](https://nbdev.fast.ai)
+A Jekyll theme for [nbdev](https://nbdev.fast.ai) based on [documentation-theme-jekyll](https://jekyllthemes.io/theme/documentation).
 
 
 ## Usage
