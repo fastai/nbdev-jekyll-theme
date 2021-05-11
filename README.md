@@ -1,11 +1,7 @@
-# nbdev-jekyll-theme
+# captn-jekyll-theme
 
-A Jekyll theme for [nbdev](https://nbdev.fast.ai) based on [documentation-theme-jekyll](https://github.com/tomjoht/documentation-theme-jekyll).
+A Jekyll theme for [captn](https://captn.ai) based on [documentation-theme-jekyll](https://github.com/tomjoht/documentation-theme-jekyll).
 
-
-## Usage
-
-We recommend that you use repo template [nbdev template](https://github.com/fastai/nbdev_template/) or the [nbdev_new](https://nbdev.fast.ai/cli.html#nbdev_new) CLI command to create new nbdev projects.  [nbdev template](https://github.com/fastai/nbdev_template/) containts this theme as well as other supporting files needed for nbdev.
 
 ## Development
 
@@ -25,7 +21,7 @@ And add these lines to your Jekyll site's `_config.yml`:
 plugins:
     - jekyll-remote-theme
     
-remote_theme: fastai/nbdev-jekyll-theme
+remote_theme: captnai/captn-jekyll-theme
 ```
 
 And then execute:
