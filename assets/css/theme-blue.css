@@ -1,79 +1,152 @@
-.summary {
-    color: #808080;
-    border-left: 5px solid #ED1951;
-    font-size:16px;
+@font-face {
+  font-family: 'PantonSemiBold';
+  src: url('../fonts/Panton-SemiBold.woff') format('woff');
+  src: url('../fonts/Panton-SemiBold.ttf') format('truetype');
+}
+
+body {
+  color: #eae4d9;
+  background-color: #003851;
+  font-family: PantonSemiBold, sans;
+  }
+
+a {
+  color: #003851;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #5ec5ed;
 }
 
 
-h3 {color: #000000; }
-h4 {color: #000000; }
+.summary {
+    color: #6faabc;
+    border-left: 5px solid #6faabc;
+}
+
+code {
+        color: #eae4d9;
+        background-color: #003851;
+}
+
+a code {
+    color: #6faabc;
+}
+
+h3 {color: #6faabc; 
+  font-family: PantonSemiBold, sans;
+
+}
+
+.nav a {
+    color: #003851;
+    display: block;
+    outline: none;
+    /*-webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;*/
+    text-decoration: none;
+}
+
+.nav a:hover, .nav li.active > a {
+    background-color: #6faabc;
+    color: #003851;
+    
+
+}
+
+.nav ul li a {
+    background-color: #6faabc;
+    color: #003851;
+}
+.nav li a:hover {
+    background-color: #6faabc;
+    font-weight: bold;
+
+}
+.nav li a {
+    font-size: 15px;
+    line-height: 24px;
+    padding: 2px 10px;
+    background-color: #6faabc;
+    font-family: PantonSemiBold, sans;
+
+
+}
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-    background-color: #248ec2;
-    color: white;
+    background-color: #6faabc;
+    color: #003851;
 }
 
 .nav > li.active > a {
-    background-color: #347DBE;
+    background-color: #6faabc;
+    color: #003851;
 }
 
 .nav > li > a:hover {
-    background-color: #248ec2;
+    color: #5ec5ed;
 }
 
 div.navbar-collapse .dropdown-menu > li > a:hover {
-    background-color: #347DBE;
+    background-color: #5ec5ed;
 }
 
 .nav li.thirdlevel > a {
-    background-color: #FAFAFA !important;
-    color: #248EC2;
+    background-color: #eae4d9 !important;
+    color: #5ec5ed;
     font-weight: bold;
 }
 
 a[data-toggle="tooltip"] {
-    color: #649345;
+    color: #71ad3d;
     font-style: italic;
     cursor: default;
 }
 
 .navbar-inverse {
-    background-color: #347DBE;
-    border-color: #015CAE;
+    background-color: #eae4d9;
+    border-color: #003851;
 }
 .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
-    color: white;
+    color: #003851;
+    position: relative;
+    bottom: 7px;
+    font-size: 20px;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover, a.fa.fa-home.fa-lg.navbar-brand:hover {
-     color: #f0f0f0;
+     color: #003851;
+
 }
 
 a.navbar-brand:hover {
-  color: #f0f0f0;
+  color: #003851;
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    color: #015CAE;
+    color: #6faabc;
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    background-color: #015CAE;
-    color: #ffffff;
+    background-color: #6faabc;
+    color: #003851;
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: #248ec2 !important;
+    border-color: #6faabc !important;
 }
 
 .btn-primary {
-    color: #ffffff;
-    background-color: #347DBE;
-    border-color: #347DBE;
+    color: #003851;
+    background-color: #6faabc;
+    border-color: #6faabc;
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-    background-color: #347DBE;
+    background-color: #6faabc;
 }
 
 .btn-primary:hover,
@@ -113,9 +186,169 @@ li.sidebarTitle {
 }
 
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-    background-color: #015CAE;
+    background-color: #6faabc;
 }
 
 .navbar-inverse .navbar-toggle {
     border-color: #015CAE;
+}
+
+table > tbody > tr:nth-of-type(odd) {
+    background-color: #004666;
+    color: #eae4d9;
+}
+table > tbody > tr > td, table > tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+    color: #eae4d9;
+}
+
+table > thead > tr > th {
+    background-color: #003851;
+    color: #eae4d9;
+}
+
+div#toc ul {
+    background-color: #eae4d9;
+    color: #003851;
+}
+
+div#toc >ul::before {
+    content: "Table of Contents";
+    color: #003851;
+}
+
+.input_area pre {
+        background-color: #eae4d9;
+        color: #003851;
+        /*border: 0px;*/
+}
+
+code {
+        color: #eae4d9;
+        background-color: #003851;
+}
+
+table {
+  font-size: 11px;
+}
+
+h4 {
+    color: #6faabc;
+    font-weight: normal;
+    font-size: 130%;
+}
+
+h4 code {
+    background-color: rgba(0,0,0,0);
+    color: #6faabc
+}
+
+blockquote code {
+        background-color: #003851;
+        color: #eae4d9;
+}
+
+.alert-info {
+    color: #003851;
+    background-color: #6faabc;
+    border-color: #bce8f1;
+}
+
+.highlight .nn {
+    color: #003851;
+}
+
+.highlight .s2 {
+    color: #6faabc;
+}
+
+.alert-success {
+    color: #71ad33d;
+    background-color: #dbead9;
+    border-color: #bfdaa8;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #6faabc;
+    color: #003851;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #003851;
+    border-color: #003851;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #003851;
+}
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #003851;
+  background-color: transparent;
+}
+
+.fa-home:before {
+    content: "";
+    display: inline-block;
+    width: 180px;
+    height: 40px;
+    background-image: url(../images/Main_Logo_on_Light_background_Main-logo-horisontal-on-light.png);
+    background-size: 180px 40px;
+    position: relative;
+    bottom: 0px;
+}
+span.projectTitle {
+    font-family: PantonSemiBold;
+    font-weight: bold;
+    color:transparent
+}
+
+h2 {
+    border-top: 3px solid #6faabc;
+    color: #eae4d9;
+      font-family: PantonSemiBold, sans;
+
+}
+pre {
+    background-color: #eae4d9
+}
+
+pre code {
+    color: #003851;
+}
+
+p {
+    color: #eae4d9;
+}
+
+.h1, h1 {
+    color: #eae4d9;
+}
+
+.dataframe tbody tr th:only-of-type {
+    vertical-align: middle;
+    color: #eae4d9;
+    
+}
+blockquote {
+    border-left: 5px solid #eae4d9;
+}
+
+.footer {
+    text-align: right;
+    color: #eae4d9;
+}
+
+details.description summary {
+    color: #6faabc;
+}
+
+a.source_link {
+    float: right;
+    font-size: 15px;
+    font-weight: normal;
+    color: #6faabc;
 }
